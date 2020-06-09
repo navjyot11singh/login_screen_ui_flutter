@@ -14,12 +14,13 @@ class OtherLoginOptions extends StatelessWidget {
               'Also Login With',
               style: TextStyle(color: Colors.white, fontSize: 16),
             ),
-
             IconButton(
+              onPressed: () {},
               iconSize: 30,
               icon: new Image.asset("assets/fblogo.png"),
             ),
             IconButton(
+              onPressed: () {},
               iconSize: 30,
               icon: new Image.asset("assets/googlelogo.png"),
             )
